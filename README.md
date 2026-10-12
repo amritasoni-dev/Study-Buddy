@@ -18,10 +18,6 @@ Student Buddy is a hands-on project created during a two-day Generative AI & Age
 - Generative AI and Agentic AI
 - NotebookLM and PathPilot
 
-## 🚀 Live Demo
-
-[Open Student Buddy](https://student-buddy-103161789202.asia-southeast1.run.app)
-
 ## 🙏 Acknowledgements
 
 Thanks to Edutech, Prof. Saurabh Agarwal, and Sohum Berdia for the workshop and learning experience.
