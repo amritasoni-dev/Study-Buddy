@@ -8,7 +8,8 @@ export interface TodoTask {
   priority: Priority;
   dueTime?: string;
   estimatedMinutes?: number;
-  category?: 'study' | 'assignment' | 'revision' | 'personal';
+  category?: 'study' | 'assignment' | 'revision' | 'personal' | 'project';
+  notes?: string;
   createdAt: string;
 }
 
