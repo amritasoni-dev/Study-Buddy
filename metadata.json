@@ -1,0 +1,8 @@
+{
+  "name": "Student Buddy Companion",
+  "description": "Student Buddy is your cheerful pink and yellow student assistant featuring an animated waving robot mascot, weekly task generator, daily to-dos, weekend and holiday plans, exams and college assignments tracker, hackathon and workshop alerts, markable calendar, pastel sticky notes, study tools (Brainly, ChatGPT, Gemini, Google), and screen time monitor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FFFDF5;
+    color: #292524;
+  }
+}
+
+.font-shantell {
+  font-family: 'Shantell Sans', cursive, sans-serif;
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+/* Waving Hand Robot Keyframe */
+@keyframes robotWave {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(26deg);
+  }
+  30% {
+    transform: rotate(-12deg);
+  }
+  45% {
+    transform: rotate(28deg);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-waving-hand {
+  transform-origin: 20px 65px;
+  animation: robotWave 1.8s ease-in-out infinite;
+}
+
+@keyframes gentleHover {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-gentle-hover {
+  animation: gentleHover 3.2s ease-in-out infinite;
+}
+
+@keyframes antennaBlink {
+  0%, 100% {
+    opacity: 0.6;
+    filter: drop-shadow(0 0 2px #F472B6);
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px #F59E0B);
+  }
+}
+
+.animate-antenna-blink {
+  animation: antennaBlink 1.5s infinite;
+}
+
+/* Custom Scrollbar for sidebar and sticky notes */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(254, 240, 138, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(244, 114, 182, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(236, 72, 153, 0.7);
+}
