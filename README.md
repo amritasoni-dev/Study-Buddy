@@ -5,7 +5,7 @@
 
 ## 📸 App Screenshot
 
-![Student Buddy Screenshot](screenshots/student-buddy.png)
+![Student Buddy Screenshot](student-buddy.png)
 
 ## 📖 About
 
